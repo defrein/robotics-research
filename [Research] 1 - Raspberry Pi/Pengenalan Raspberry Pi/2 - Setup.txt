@@ -1,0 +1,59 @@
+Ada beberapa hal yang perlu di-setting untuk mulai bekerja alias ngoding di Raspberry Pi, berikut yang saya lakukan:
+
+UPDATE & UPGRADE
+Kalau muncul tanda update di pojok di kanan atas, klik aja, lalu lakukan update.
+Selain itu, kalau perlu kalian update dan upgrade juga di terminal:
+    sudo apt-get update
+    sudo apt-get upgrade
+Ini penting biar nanti gak banyak masalah saat bekerja dengan library dan package.
+
+AKSES REMOTE DENGAN ANYDESK
+Raspberry Pi akan lebih praktis kalau diakses secara remote. Tapi itu tergantung preferensi masing-masing, menurut saya akses remote sangat bergantung dengan jaringan internet, sehingga kalau jaringannya lemot, responnya juga akan sangat lambat.
+Kalau mau akses remote, silakan ikuti langkah-langkah berikut.
+1. Install Anydesk di Laptop/Komputer kalian.
+2. Install Anydesk di Raspberry Pi
+3. Sambungkan Raspberry Pi dan Laptop ke internet
+4. Jalankan Anydesk di Laptop dan di Raspberry Pi
+5. Masukkan Address Raspberry Pi ke Anydesk Laptop
+6. Accept permintaan akses remote di Raspberry Pi
+7. Tunggu sampai tampilan Raspberry Pi muncul di laptop
+(need tutorial? https://youtu.be/ZNzskQw3_Zw)
+Akan lebih baik jika bisa auto accept tiap akses remote dengan anydesk, tutorial: https://youtu.be/naX_ghRIs50
+Nah, kalau udah bisa remote kalian gak perlu lagi nyambungin monitor, keyboard, dan mouse lagi ke Raspberry Pi. Cukup sambungin adaptor aja.
+
+SETTING CONFIGURATION
+Kalau kalian bekerja dengan GPIO, Camera, Serial Port dll. Kalian harus mengaktifkannya di Raspberry Pi Configuration bagian Interfaces, lalu enable apa saja yang kalian perlukan. Tutorial: (https://youtu.be/naX_ghRIs50)
+
+PYTHON
+1. Install Python
+Buat ngoding itu lebih baik pakai Python 3, soalnya Python 3 lebih support dengan teknologi terbaru.
+Kalau kalian menginstall raspbian OS dari link yang saya berikan, maka secara otomatis sudah terinstall Python 3.
+cara ceknya, buka terminal, lalu ketik:
+    python --version
+Yang muncul adalah versi Python kalian, kalau udah versi 3.x.x kalian lanjut aja baca: 2. Install IDE Python
+Kalau ternyata yang muncul Python versi 2.x.x, coba cek lagi, dengan ketik:
+    python3 --version
+Kalau gak ada, berarti harus install Python 3 dulu,
+Kalau sudah ada muncul versi 3.x.x, berarti python3 sudah terinstall, tapi gak digunakan sebagai default, ubah dulu sebagai default, tapi keknya bakal muncul banyak masalah setelah itu, makanya saya sarankan install raspbian OS yang versi terbaru. Oh iya, kalau di raspbian kalian ada 2 macam versi python, versi 2.x.x jangan dihapus soalnya akan muncul banyak masalah dan bisa merusak sistem. Pastikan sebelum nyobain command, lihat dulu komentar orang atau cari tau dulu maksud command itu, salah-salah nanti bisa merusak sistem, be careful ok? nice.
+2. Install IDE Python
+Ngoding juga perlu softwarenya kan, di Raspberry Pi udah ada terinstall software buat ngoding Python yang namanya "Thonny Python IDE". Tapi kalau kalian mau install IDE lain, oke, install aja IDE yang kalian perlukan. Tapi ingat, kalau IDE/Text Editor yang dipakai lumayan berat, performa Raspberry Pi juga akan melambat.
+Sebelum itu, update dan upgrade dulu.
+    sudo apt-get update
+    sudo apt-get upgrade
+Kalau kalian terbiasa sama IDLE Python, install dengan ketik command berikut di terminal:
+    sudo apt-get install idle
+Adapun kalau kalian terbiasa ngoding di VSCode seperti saya, install dengan ketik command berikut di terminal:
+    sudo apt-get install code
+Kalau VScode udah terinstall, buka lalu install extension Python biar bisa ngoding Python. Kalau perlu install extension Pylance dan Error Lens juga.
+Sip. Kalian udah siap buat ngoding Python.
+
+ARDUINO
+Kalau kalian perlu bekerja dengan arduino di Raspberry Pi. Download Arduino untuk Raspberry Pi, berikut linknya:
+https://www.arduino.cc/en/software
+Pilih yg "Linux ARM 32 Bit"
+link tutorial: https://youtu.be/xWCwJXz4B4I
+
+CAMERA
+Jika konfigurasi kamera tidak muncul pada Raspberry Pi Configuration bagian interface, maka kalian harus melakukannya di terminal.
+link tutorial: https://youtu.be/nx8gDSS1vO4
+

@@ -1,0 +1,41 @@
+=============== Mengenal Raspberry Pi ==================
+Raspberry Pi adalah sebuah komputer papan tunggal (single-board computer) atau SBC seukuran kartu kredit yang dapat digunakan untuk menjalankan program perkantoran, permainan komputer, dan sebagai pemutar media hingga video beresolusi tinggi.
+
+Lebih lanjut tentang Raspberry Pi:
+https://www.kajianpustaka.com/2020/12/Raspberry-Pi.html
+
+Perbedaan Raspberry Pi dengan Arduino:
+https://www.anakteknik.co.id/ish_sagita/articles/apakah-perbedaan-antara-arduino-dan-raspberry-pi
+
+
+============== Bekerja dengan Raspberry Pi =============
+INSTALASI
+Alat yang diperlukan:
+- Raspberry Pi 3/3B/4
+- Adaptor 5V/3A
+- MicroSD minimal 8GB (disarankan MicroSD dengan yg lebih tinggi, misal Sandisk Extreme 32GB atau keatas)
+- Card reader
+- Monitor (untuk menginstall OS pertama kali)
+- Kabel HDMI/VGA/Converter sesuai Monitor dan Laptop yang digunakan (untuk menginstall OS pertama kali)
+- Mouse (untuk menginstall OS pertama kali)
+- Keyboard (untuk menginstall OS pertama kali)
+
+Bahan yang diperlukan:
+- Raspberry Pi Imager (https://www.raspberrypi.com/software/)
+- Raspbian OS (https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit   pilih "Raspberry Pi OS with desktop and recommended software") [disarankan versi terbaru]
+- Anydesk for Windows (https://anydesk.com/en/downloads/windows) [biar bisa akses remote nanti]
+- Anydesk for Raspberry Pi (https://anydesk.com/en/downloads/raspberry-pi) [ini nanti didownload di raspi]
+
+Langkah-Langkah INSTALASI OS
+1. Persiapkan alat dan bahan
+2. Install Raspberry Pi Imager di Laptop
+3. Masukkan MicroSD ke Card Reader, Lalu colok ke laptop, pastikan sudah terdeteksi
+4. Buka aplikasi Raspberry Pi Imager yang telah di install
+5. Lakukan format MicroSD dengan aplikasi Raspberry Pi Imager
+6. Lakukan burning file raspbian image dengan aplikasi Raspberry Pi Imager (need tutorial? https://youtu.be/eS-N8NCB9rk)
+7. Setelah MicroSD siap, ambil Raspberry Pi lalu colokkan MicroSD
+8. Sambungkan Raspberry Pi dengan adaptor 5V/3A dan colok ke stopkontak terdekat
+9. Sambungkan monitor, keyboard, dan mouse yang diperlukan untuk proses instalasi
+10. Hidupkan monitor dan tungggu hingga tampilan istalasi muncul
+11. Lakukan instalasi seperti biasa (need tutorial? https://youtu.be/cxhctYvQomY)
+12. Yey! Raspberry Pi mu sudah siap untuk digunakan!
