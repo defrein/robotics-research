@@ -1,0 +1,28 @@
+=============== Mengenal Raspberry Pi ==================
+Raspberry Pi adalah sebuah komputer papan tunggal (single-board computer) atau SBC seukuran kartu kredit yang dapat digunakan untuk menjalankan program perkantoran, permainan komputer, dan sebagai pemutar media hingga video beresolusi tinggi.
+
+Lebih lanjut tentang Raspberry Pi:
+https://www.kajianpustaka.com/2020/12/Raspberry-Pi.html
+
+Perbedaan Raspberry Pi dengan Arduino:
+https://www.anakteknik.co.id/ish_sagita/articles/apakah-perbedaan-antara-arduino-dan-raspberry-pi
+
+
+============== Bekerja dengan Raspberry Pi =============
+INSTALASI
+Alat yang diperlukan:
+- Raspberry Pi
+- Adaptor 5V/3A
+- MicroSD minimal 8GB (Disarankan MicroSD dengan yg lebih tinggi, Sandisk Extreme 32GB)
+- Monitor (untuk menginstall OS pertama kali)
+- Mouse (untuk menginstall OS pertama kali)
+- Keyboard (untuk menginstall OS pertama kali)
+
+Bahan yang diperlukan:
+- Raspberry Pi Imager (https://www.raspberrypi.com/software/)
+- Raspbian OS (disarankan versi terbaru) (https://www.raspberrypi.com/software/)
+- Anydesk for Windows (https://anydesk.com/en/downloads/windows)
+- Anydesk for Raspberry Pi (https://anydesk.com/en/downloads/raspberry-pi)
+
+SETUP
+Tunggu update selanjutnya...

@@ -1,0 +1,3 @@
+How to Detect Colors in OpenCV Python
+https://youtu.be/cMJwqxskyek
+by CreepyD

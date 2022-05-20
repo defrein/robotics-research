@@ -1,0 +1,1 @@
+print("Alice" * 5)
